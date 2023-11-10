@@ -73,7 +73,7 @@ const SignupForm = ({setIsLoggedIn}) => {
       </div>
 
       <form onSubmit={submitHandler}
-      className='flex flex-col w-full gap-y-4'>
+      className='flex flex-col w-full gap-y-1'>
         {/* first name & last name container div */}
         <div className='flex gap-x-4'>
           <label className='w-full'>

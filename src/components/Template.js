@@ -6,13 +6,13 @@ import { FcGoogle } from "react-icons/fc";
 
 const Template = ({title, desc1, desc2, image, formType, setIsLoggedIn}) => {
   return (
-    <div className='mx-auto max-w-[1160px] py-12 flex justify-between w-11/12 gap-x-12 gap-y-0 '>
+    <div className='mx-auto max-w-[1160px] py-6 flex justify-between w-11/12 gap-x-12 '>
 
       <div className=' w-11/12 max-w-[450px]'>
-        <h1 className='text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem]'>
+        <h1 className='text-richblack-5 font-semibold text-[1.8rem] leading-[2.375rem]'>
           {title}
         </h1>
-        <p className='text-[1.125rem] leading-[1.625rem] mt-4'>
+        <p className='text-[1.1rem] leading-[1.625rem] mt-1'>
             <span className='text-richblack-100'>{desc1}</span>
             <br />
             <span className='text-blue-100 italic'>{desc2}</span>
@@ -30,7 +30,7 @@ const Template = ({title, desc1, desc2, image, formType, setIsLoggedIn}) => {
             <div className='w-full h-[1px] bg-richblack-700'></div>
         </div>
 
-        <button className='w-full cursor-pointer px-[12px] py-[8px] gap-x-2 mt-6
+        <button className='w-full cursor-pointer px-[12px] py-[8px] gap-x-2
         flex justify-center items-center font-medium text-richblack-100
         border border-richblack-700 rounded-[8px] '>
           <FcGoogle />

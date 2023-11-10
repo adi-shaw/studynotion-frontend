@@ -19,7 +19,7 @@ function App() {
       <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} ></Navbar>
       
       <Routes>
-        <Route path='/' element={<Home isLoggedIn={isLoggedIn}></Home>}></Route>
+        <Route path='/studynotion-frontend' element={<Home isLoggedIn={isLoggedIn}></Home>}></Route>
         <Route path='/login' element={<Login setIsLoggedIn={setIsLoggedIn} ></Login>}></Route>
         <Route path='/signup' element={<Signup  setIsLoggedIn={setIsLoggedIn} ></Signup>}></Route>
         <Route path='/dashboard' element={
